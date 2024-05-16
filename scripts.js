@@ -34,6 +34,7 @@ function resetClick() {
         gridDiv.style.backgroundColor = "papayawhip";
         gridColor = "black"
         gridDiv.style.opacity = 0;
+        eraserButton.classList.remove("active");
     })
     
 }
