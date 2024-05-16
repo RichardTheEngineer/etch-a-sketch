@@ -33,6 +33,7 @@ function resetClick() {
     gridDivs.forEach((gridDiv)=> {
         gridDiv.style.backgroundColor = "papayawhip";
         gridColor = "black"
+        gridDiv.style.opacity = 0;
     })
     
 }
